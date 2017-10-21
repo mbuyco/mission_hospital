@@ -1,0 +1,134 @@
+.navbar {
+	margin-bottom: 0;
+}
+	.navbar .navbar-nav > .active > a {
+		color: #fff;
+	    background-color: #4caf50;
+	    border: #2d6730;
+	    font-weight: bold;
+	}
+	.navbar .navbar-brand {
+		padding: 0px;
+	}
+	.navbar-brand>img {
+	  height: 100%;
+	  padding: 7px 15px;
+	  width: auto;
+	}
+
+.carousel .carousel-inner .item:after {
+	background-color: #222;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+
+}
+.carousel .carousel-inner .item {
+	height: 550px;
+}	
+	.carousel .carousel-inner .item img {
+		height: 100%;
+		width: 100%;
+	}
+
+#contact-us .header {
+	margin: 30px 0 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+#contact-us .row .col-xs-3 {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	min-height: 143px;
+}
+#contact-us .row .col-xs-3:hover {
+	background: #5cb85c;
+}
+	#contact-us .row .col-xs-3:hover h4 > strong {
+		color: #fff;
+	}
+
+#about-us {
+	background: url('../img/about-us.jpg') no-repeat center center;
+	background-size: cover;
+	height: 640px;
+	position: relative;
+}
+	#about-us .overlay {
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.3);
+	}
+	#about-us .content {
+		position: absolute;
+		top: 20%;
+		bottom: 20%;
+		left: 20%;
+		right: 20%;
+	}
+		#about-us .content .header {
+			margin-bottom: 30px;
+		}
+		#about-us .content .header,
+		#about-us .content h4 {
+			color: #fff;
+		}
+
+#bottom-content {
+	margin-top: 20px;
+}
+	#bottom-content img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	#bottom-content h4 {
+		font-weight: bold;
+		border-bottom: 3px solid #4caf50;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+
+footer {
+	background-color: #3f8e42;
+	padding: 20px 0 40px;
+	margin-top: 40px;
+}
+	footer img {
+		opacity: 0.85;
+	}
+	footer * {
+		color: #fefefe;
+	}
+	footer a {
+		text-decoration: underline;
+	}
+
+.text-shadow {
+	text-shadow: 2px 2px 2px #222;
+}
+
+@media (min-width: 768px) {
+	.carousel .carousel-inner .item .carousel-caption {
+		left: 10%;
+		right: 10%;
+		bottom: 30%;
+	}
+		.carousel .carousel-inner .item .carousel-caption h1 {
+			font-weight: bold;
+			font-size: 5rem;
+		}
+		.carousel .carousel-inner .item .carousel-caption p {
+			font-size: 2rem;
+		}
+
+	.carousel .carousel-inner #slide-2.item .carousel-caption {
+		right: 5%;
+		text-align: right;
+	}
+}
